@@ -7,9 +7,11 @@ This project analyzes a marketing dataset using  python and ' statsmodels' to bu
 * **ROI Multiplier:** An estimated increase of **$3.56** in sales revenue generated for every **$1.00** invested in TV.
 * **Assumptions Status:** Successfully validated for Linearity, Normality, and Homoscedasticity using residual diagnostic plots.
 ## Environment Setup & Requirements
-To run this notebook locally,ensure you have python 3.8+ installed along with the following packages:
+To run this notebook locally,ensure you have python 3.8+ installed.
+### Environment Setup
+Install the required packages by running the following command in your terminal:
 ...bash
-pip installed pandas numpy matplotlib seaborn statsmodels scipy
+pip install pandas seaborn statsmodels numpy matplotlib scipy
 ...
 ## Repository Structure
 * 'regression_analysis.ipynb' - Fully executed jupyter Notebook with data cleaning, OLS summary, and plots.
